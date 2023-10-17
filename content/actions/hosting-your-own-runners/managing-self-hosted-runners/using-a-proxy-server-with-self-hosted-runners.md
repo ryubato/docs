@@ -20,9 +20,9 @@ shortTitle: Proxy servers
 If you need a self-hosted runner to communicate via a proxy server, the self-hosted runner application uses proxy configurations set in the following environment variables:
 
 - `https_proxy`: Proxy URL for HTTPS traffic. You can also include basic authentication credentials, if required. For example:
-  - `http://proxy.local`
-  - `http://192.168.1.1:8080`
-  - `http://username:password@proxy.local`
+  - `https://proxy.local`
+  - `https://192.168.1.1:8080`
+  - `https://username:password@proxy.local`
 - `http_proxy`: Proxy URL for HTTP traffic. You can also include basic authentication credentials, if required. For example:
   - `http://proxy.local`
   - `http://192.168.1.1:8080`
